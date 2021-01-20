@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+.small_box{
+    width:200px;
+    height: 40px;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom:0px;
+    right:50px;
+    border:1px solid red;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+.pop_up_big{
+    height:400px;
+    width:450px;
+    background-color: burlywood;
+    border-radius: 5px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lorem_text{
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left:10px
+
+}
+#close{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    cursor: pointer;
+}
+
+.qtn{
+    font-size: 15px;
+    text-align: center;
+}
+.Email{
+    width:350px;
+    padding: 7px;
+    border:1px solid burlywood;
+    letter-spacing: 0.1rem;
+}
+.txtar{
+    width:350px;
+    height:100px;
+    border:1px solid burlywood;
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+    padding:6px;
+}
+.form_box{
+    text-align: center;
+}
+#btn{
+    width: 200px;
+    height:40px;
+    background-color: rosybrown;
+    border:none;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
